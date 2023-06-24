@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-12T00:02:41 EDT" name="Default suite" finished-at="2023-06-12T00:03:48 EDT" duration-ms="67210">
+    <groups>
+    </groups>
+    <test started-at="2023-06-12T00:02:41 EDT" name="Default test" finished-at="2023-06-12T00:03:48 EDT" duration-ms="67210">
+      <class name="google.MainTest">
+        <test-method is-config="true" signature="main()[pri:0, instance:google.MainTest@9597028]" started-at="2023-06-12T00:02:41 EDT" name="main" finished-at="2023-06-12T00:02:47 EDT" duration-ms="6555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method signature="google()[pri:0, instance:google.MainTest@9597028]" started-at="2023-06-12T00:02:47 EDT" name="google" finished-at="2023-06-12T00:03:00 EDT" duration-ms="12726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method signature="map()[pri:0, instance:google.MainTest@9597028]" started-at="2023-06-12T00:03:00 EDT" name="map" finished-at="2023-06-12T00:03:10 EDT" depends-on-methods="google.MainTest.google" duration-ms="9745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- map -->
+        <test-method signature="news()[pri:0, instance:google.MainTest@9597028]" started-at="2023-06-12T00:03:10 EDT" name="news" finished-at="2023-06-12T00:03:19 EDT" depends-on-methods="google.MainTest.map" duration-ms="9418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- news -->
+        <test-method signature="shop()[pri:0, instance:google.MainTest@9597028]" started-at="2023-06-12T00:03:19 EDT" name="shop" finished-at="2023-06-12T00:03:47 EDT" depends-on-methods="google.MainTest.news" duration-ms="28196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop -->
+        <test-method is-config="true" signature="close()[pri:0, instance:google.MainTest@9597028]" started-at="2023-06-12T00:03:47 EDT" name="close" finished-at="2023-06-12T00:03:48 EDT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- google.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
