@@ -22,6 +22,7 @@ public class ShoppingPageElements extends Common{
 	
 	@FindBy(xpath="//input[@type='text']")
 	public WebElement newsSearch;
+	//Test
 	
 	@FindBy(name="q")
 	public WebElement shoppingSearch;
